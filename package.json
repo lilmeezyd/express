@@ -1,0 +1,20 @@
+{
+  "name": "express-crash-course",
+  "version": "1.0.0",
+  "description": "Express crash course",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server",
+    "dev": "node --watch --env-file=.env server"
+  },
+  "author": "DENIS MOINI",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
